@@ -1,0 +1,147 @@
+W 0 %Witaj w œwiecie Gothica. Jest bezchmurny dzieñ, z nieba leje siê ¿ar, jednak jesteœ ju¿ prawie u celu wêdrówki. A przynajmniej tak wtedy myœla³eœ...
+K 1 @Prolog
+K 3 @Rozdzia³ 1
+W 1 :profa:V&@Maszerujesz przed siebie posiadaj¹c jedynie
+K 2 @1: swój ulubiony miecz,
+K 2 @2: w³asnorêcznie zrobiony ³uk myœliwski,
+K 2 @3: dobry humor,
+W 2 @oraz pewien dokument, który zlecono ci dostarczyæ do r¹k w³asnych. Przed tob¹ jak na d³oni widaæ cel twojej wêdrówki; miasto portowe Khorinis. Patrz¹c na stra¿ników strzeg¹cych bramy uœwiadamiasz sobie, ¿e twoje zadanie to nie bêdzie jednak sielanka jak sobie wyobra¿a³eœ. W pobli¿u widzisz niewielk¹ farmê z pracuj¹cymi ludŸmi.
+K 2.0 @Po drodze do tego miejsca us³ysza³eœ informacje, ¿e do miasta wpuszczaj¹ wy³¹cznie osoby posiadaj¹ce glejt.
+W 2.0 %Decydujesz siê
+K 2.1 @1: podejœæ do bramy i porozmawiaæ ze stra¿nikami.
+K 2.2 @2: zapytaæ ch³opów o pobliskie miasto.
+K 2.3 @3: porozmawiaæ z w³aœcicielem farmy.
+W 2.1 @Dowiadujesz siê, ¿e do miasta wpuszczaj¹ tylko z glejtem, a na proœbê o rozmowê z prze³o¿onym odpowiedzieli, ¿e bêdzie za 3 godziny.
+K 2.0 @1: Odchodzisz, mucz¹c pod nosem.
+K 2.1.2 @2: Postanawiasz zaczekaæ w cieniu okolicznego drzewa i przy okazji coœ zjeœæ.
+#4################# GREG
+W 2.1.2 @Podczas spaceru zauwa¿asz goœcia niepasuj¹cego do otoczenia, ma przepaskê na oku i dziwny strój. Na pierwszy rzut oka wygl¹da³ na zagubionego i sponiewieranego. Patrzy na Ciebie, jakby chcia³ czegoœ.
+K 2.1.2.1 @1: Podchodzisz i zaczynasz rozmowê.
+K 2.1.2.2 @2: Zostawiasz go w spokoju, prawdopodobnie œci¹gnie na Ciebie k³opoty. Oddalaj¹c siê, czujesz na sobie jego wzrok i ju¿ wiesz, ¿e Ciê zapamiêta³.
+W 2.1.2.1 %Nie przedstawi³ ci siê, ale zaproponowa³ uk³ad. Za³atwisz mu wejœcie do miasta, a on bêdzie Ci winny d³ug wdziêcznoœci. Coœ w jego aparycji ka¿e Ci myœleæ, ¿e nie jest to przeciêtny cz³owiek i o ile jeszcze siê spotkacie, na pewno bêdzie w stanie siê odwdziêczyæ z nawi¹zk¹.
+/K 2.1.2.1.1 @1: Przystajesz na uk³ad i dajesz mu strój rolnika.
+K 2.1.2.1.2 @1: Przystajesz na uk³ad i dajesz mu glejt.
+K 2.1.2.1 @2: Nie wydaje Ci siê, aby ten ktoœ by³ oszustem, jednak masz przeczucie, ¿e ten cz³owiek jest przestêpc¹ i kontakty z nim mog¹ sprowadziæ na Ciebie k³opoty. Odmawiasz
+/W 2.1.2.1.1 :Stroj_Farmera:1:A&@Greg patrzy na ciebie wyczekuj¹co
+/K 2.1.2.1.1.1 @Przebierasz siê w swoje poprzednie ubranie. Czujesz, ¿e strój, który podajesz swojemu rozmówcy jest lepiej wykonany ni¿ twój.
+/K 2.1.2.1.1.2 @W tym momencie uœwiadomi³eœ sobie, ¿e nie posiadasz oferowanego stroju. Jest Ci strasznie g³upio.
+W 2.1.2.1.2 :glejt:1:A&@Greg patrzy na ciebie wyczekuj¹co
+K 2.1.2.1.1.1 @Wyci¹gasz z kieszeni glejt i niechêtnie podajesz go gregowi. 
+K 2.1.2.1.1.2 @Po przeszukaniu swoich rzeczy uœwiadamiasz sobie, ¿e nie posiadasz glejtu.
+W 2.1.2.1.1.2 @Obiecujesz pomóc mu dostaæ siê do miasta, jednak jeszcze nie teraz.
+K 2.1.2.2 @Zostawiasz tego niepokoj¹cego mê¿czyznê za sob¹, czujesz ciarki na plecach, jednak nie obracasz siê. Podchodzisz w stronê bramy miasta. Stra¿nicy mówi¹, ¿e sier¿ant zaraz tu bêdzie.
+W 2.1.2.1.1.1 :qgreg:W&@Ten chwali twoj¹ decyzjê i odchodzi. Domyœlasz siê, ¿e to nie jedyny problem, który ten facet musi dziœ rozwi¹zaæ. Masz nadzieje, ¿e nagroda bêdzie tego warta.
+#3###################### BRAMY
+K 2.1.2.2 @Podchodzisz w stronê bramy miasta. Stra¿nicy mówi¹, ¿e sier¿ant zaraz tu bêdzie.
+W 2.1.2.2 @Stra¿nicy miejscy odsuwaj¹ siê, aby zrobiæ miejsce swojemu dowódcy. Stajesz twarz¹ w twarz z ros³ym, barczystym mê¿czyzn¹. Pozdrowi³ Ciê skinieniem g³owy i czeka, a¿ powiesz mu, czego od niego chcesz. Ju¿ wiesz, ¿e masz tylko jedn¹ szansê.
+K 2.1.2.2.1 @1: Próbujesz go przekupiæ.
+K 2.1.2.2.2 @2: Mówisz, ¿e ktoœ w mieœcie oczekuje na Ciebie i musisz wejœæ.
+K 2.1.2.2.3 @3: Podajesz siê za farmera i prosisz o mo¿liwoœæ odwiedzenia targowiska na proœbê swojego chlebodawcy.
+K 2.1.2.2.4 @4: Prosisz o wejœcie do miasta, dodaj¹c, ¿e masz stosowne uprawnienia.
+W 2.1.2.2.1 @Barczysty mê¿czyzna stoi niezruszony, po chwili zostajesz spoliczkowany i wywalony za bramy miasta.
+K 2.4 @Powoli dochodzisz do siebie, jednak twoja chêæ dostania siê do œrodka nie zmala³a.
+W 2.1.2.2.2 @Niestety po podaniu imienia odpowiada, ¿e nie zna nikogo takiego.
+K 2.4 @Pozosta³e argumenty nic nie daj¹ i po chwili daje znak, ¿e rozmowa zosta³a zakoñczona, a ty zostajesz zmuszony odejœæ z niczym.
+W 2.1.2.2.3 @Kapitan popatrzy³ na Ciebie i zapyta³ dla kogo pracujesz.
+K 2.1.2.2.3.1 @1: Odpowiedzia³eœ, ¿e dla pobliskiego farmera.
+K 2.1.2.2.3.2 @2: Mówisz, ¿e jesteœ ch³opem z wsi oddalonej o 3 dni drogi i otrzyma³eœ zadanie przekazania zlecenia miejskiemu kowalowi.
+W 2.1.2.2.3.1 :roman:H&@Akurat sier¿ant zna pobliskiego farmera i zadaje ci szczegó³owe pytania.
+K 2.1.2.2.4.0 @Odpowiadasz na pytania zwi¹zane z farm¹ oraz na pytania o rodzinê gospodarza. Jako powód wizyty odpowiadasz, ¿e Roman wys³a³ Ciê do uzdrowiciela. Wydaje siê ¿e uwierzy³ Ci.
+K 2.0 @Nie jesteœ w stanie odpowiedzieæ na pytania w sposób, który zadowoli³by stra¿nika. Stra¿nik wyda³ podkomendnym polecenie skopania Ci dupy i wywleczenia poza bramy, po czym odszed³.
+W 2.1.2.2.4 :glejt:1:A&@Wyci¹gasz z kieszeni glejt i z uprzejmym uœmiechem oddajesz go stró¿owi prawa.
+K 2.1.2.2.4.0 @Mê¿czyzna bierze z twoich r¹k glejt, dobrze Ci siê przegl¹daj¹c, prawdopodobnie upewnia³ siê, ¿e nie jesteœ œciganym bandytom. Nastêpnie zweryfikowa³ autentycznoœæ dokumentu.
+K 2.0.0.1 @W sumie to nie posiadasz glejtu i robisz z siebie durnia. Stra¿nicy œmiej¹ siê z Ciebie, a sier¿ant potraktowa³ to jako ¿art z jego osoby.
+W 2.0.0.1 @Lepiej, ¿ebyœ przy nastêpnym podejœciu nie trafi³ na tego samego cz³owieka.
+K 2.0 @Sier¿ant nie okazuje agresji, tylko spokojnie powtarza, ¿e potrzebujesz glejt z pieczêci¹ i odchodzi w przeciwnym kierunku do twojego.
+W 2.1.2.2.3.2 :profa:wojownik:T&@ Poda³eœ siê za syna tamtejszego starszego wioski, o którym kilka dni temu us³ysza³eœ przy ognisku podru¿uj¹c tutaj i mijaj¹c tamt¹ wieœ.
+K 2.1.2.2.4.0 @Na twoje szczêœcie sier¿ant nigdy nie widzia³ owego ch³opaka, ale s³ysza³ on nim raz, czy dwa. Uwierzy³ Ci.
+K 2.0 @Niestety, podczas wypowiadania tych s³ów mrugnê³a Ci powieka. Sier¿ant tylko powtórzy³, ¿e aby wejœæ, musisz mieæ glejt i odszed³.
+#5################## LETHO
+W 2.1.2.2.4.0 @ Sier¿ant niechêtnie wydaje zezwolenie na wejœcie i odchodzi.
+K 2.5 @W koñcu uda³o Ci siê dostaæ do œrodka.
+W 2.5 @Twoim kolejnym zadaniem jest odnaleŸæ osobê o imieniu Letho.
+K 2.5.1 @Niestety nie masz nawet pewnoœci, ze wci¹¿ przebywa w mieœcie.
+W 2.5.1 @#####Koniec Prologu######
+K 0 @Czujesz siê usatysfakcjonowany osi¹gniêciem celu i postanawiasz na tym zakoñczyæ ten dzieñ. [Menu g³ówne]
+K 3 @Mijasz stra¿ników i kierujesz siê na wprost. [Rozdzia³ 1]
+#2################## POLE
+W 2.2 @ Rozgl¹daj¹c siê wchodzisz na œcie¿kê pomiêdzy ma³ymi poletkami. Nikt Ciê nie zaczepia, jednak czujesz, ¿e przyci¹gasz wzrok ch³opów.
+K 2.2.0 @ Podchodzisz do najbardziej wpatrzonego w Ciebie ch³opa.
+W 2.2.0 % Wieœniak chêtnie wdaje siê w rozmowe, dziêki której odpoczywa od pracy.
+K 2.2.1 @ 1: Pytasz go o farmê
+K 2.2.2 @ 2: Pytasz go o miasto
+K 2.0 @ 3: ¯egnasz siê i odchodzisz w kierunku bramy
+K 2.3 @ 4: ¯egnasz siê i odchodzisz w kierunku g³ównego domu na farmie
+W 2.2.1 :roman:W&@Mówi, ¿e gospodarzem jest Roman i wszyscy okoliczni pracownicy pracuj¹ dla niego.
+K 2.2.0 @Doda³ równie¿, ¿e gospodarz ma ze stra¿nikami jakiœ uk³ad i powinienem z nim porozmawiaæ.
+W 2.2.2 @Zapytany o sposób na dostanie siê do miasta powiedzia³, ¿e stra¿nicy wpuszczaj¹ równie¿ do miasta osoby na us³ugach lokalnych rzemieœlników, jednak oni sami nie opuszczaj¹ miasta.
+K 2.2.0 @ Mo¿e móg³byœ dogadaæ siê przy pomocy jakiegoœ czeladnika.
+W 2.3 % Ch³opi odprowadzaj¹ ciê wzrokiem
+K 2.3.0 @ Kierujesz siê w stronê najokazalszego budynku.
+#6############### FARMA
+W 2.3.0 @W³aœciciel siedzia³ na ³awie przed wejœciem do gospodarstwa i czyta³ jakiœ list. Gdy podszed³eœ do niego bli¿ej, zacz¹³ patrzeæ na Ciebie wyczekuj¹co. Przywita³eœ siê i rozpocz¹³eœ rozmowê.
+K 2.3.1 @1: Oferujesz mu swoje us³ugi.
+K 2.3.2 @2: Przedstawiasz mu swój problem: chcesz dostaæ siê do miasta, ale nie masz glejtu.
+K 2.3.3 @3: Mówisz mu ze w pobli¿u farmy krêci siê podejrzany typ.
+W 2.3.3 @Gospodarz nie przej¹³ siê tym, wskazuj¹c, ¿e i tak nic na to nie da siê poradziæ.
+K 2.3 @Jeœli bêdzie sprawia³ problemy stra¿ siê nim zajmie.
+W 2.3.1 @Po chwili rozmowy i zastanowienia siê oferuje Ci prace w zamian za strój farmera.
+K 2.3.1.2.0.1 @Na pocz¹tek roznosisz wodê okolicznym ch³opom. Przy okazji zapozna³eœ siê z topografi¹ terenu.
+W 2.3.1.2.0.1 @Spostrzegasz dziwne formacje skalne na pobliskim wzniesieniu.
+K 2.3.1.2 @Po przeciwnej stronie farmy rozci¹ga siê sporych rozmiarów las.
+W 2.3.1.2 :stroj_farmera:1:E&@W nastêpnej kolejnoœci reperujesz kilka sprzêtów domowych korzystaj¹c z umiejêtnoœci, których nauczy³ Ciê ojciec. Resztê dnia spêdzasz pomagaj¹c w polu.
+K 2.4.0.1 @Pod koniec dnia dostajesz swoj¹ zap³atê, strój farmera.
+W 2.4.0.1 @Odchodzisz przenocowaæ pod owymi formacjami skalnymi.
+K 2.4 @Rano wracasz pod bramê, sprawdziæ czy wydarzy³o siê coœ nowego.
+W 2.3.2 :sakiewka:1:A&@Roman oznajmi³, ¿e posiada takowy glejt.
+K 2.3.2.1 @Poda³eœ mu tajemniczy mieszek, jednak nie zapyta³ sk¹d go masz.
+K 2.3.2.2 @Jednak w³aœciciel farmy nie ma ochoty rozmawiaæ z tob¹ na ten temat.
+W 2.3.2.2 @Prawdopodobnie oczekuje czegoœ w zamian, jednak nie powiedzia³ czego. Wspomnia³ tylko coœ o zielarce mieszkaj¹cej w lesie.
+K 2.4 @Aby dostaæ upragniony glejt musia³byœ jakoœ dostaæ siê do tej zielarki, jednak jesteœ œwiadomy, ze sam nigdy jej nie odszukasz.
+W 2.3.2.1 :glejt:1:E&@Po chwili bez s³owa poda³ Ci upragniony glejt i schowa³ sakiewkê.
+K 2.0 @Zadowolony wracasz do drogi prowadz¹cej do miasta.
+#1############### LAS
+W 2.4 @Gdy zacz¹³eœ traciæ nadzieje na zdobycie glejtu, spostrzeg³eœ postaæ opuszczaj¹c¹ miasto i kieruj¹c¹ siê w stronê lasu.
+K 2.4.1 @1: Widz¹c w niej swoj¹ nadziejê œledzisz okryt¹ p³aszczem postaæ, staraj¹c siê czegoœ wiêcej o niej dowiedzieæ.
+K 2.4.2 @2: Wo³asz za ni¹ sygnalizuj¹c, ¿e chcesz porozmawiaæ.
+K 2.4.3 @3: Wolisz podejœæ do tego z planem. Pozwalasz jej oddaliæ siê, a sam przemyœlisz kim jest postaæ i porozmawiasz z ni¹, gdy bêdzie wracaæ.
+K 2.0 @4: Ignorujesz okazjê.
+W 2.4.1 %Spostrzegasz spory ³uk na jego plecach. Zak³adasz, ¿e jest to miejscowy myœliwy, lub jego uczeñ. Po chwili gubisz go wœród poszycia leœnego.
+K 2.4.1.1 @1: Czekasz bez ruchu, zak³adaj¹c, ¿e bêdzie têdy wraca³.
+K 2.4.1.2 @2: Idziesz nadal w tym samym kierunku, licz¹c, ¿e gdzieœ go wypatrzysz.
+K 2.4.3 @3: Wracasz na wszelki wypadek pod bramê.
+W 2.4.1.1 @Po pewnym czasie, który wydawa³ Ci siê ca³ym dniem, w koñcu docieraj¹ do twoich uszu pojêkiwania i dŸwiêk ci¹gniêtego przedmiotu po lesie. Zza drzew kilka metrów dalej wy³ania siê myœliwy ci¹gn¹æ martwego jelenia. Poza jeleniem dostrzegasz dwa króliki przymocowane do jego pasa.
+K 2.4.1 @Myœliwy jest brodatym mê¿czyzn¹ oko³o czterdziestki.
+W 2.4.3 %Gdy w koñcu doczeka³eœ siê powrotu myœliwego podchodzisz i zaczynasz rozmowê, dla pewnoœci poza zasiêgiem wzroku i s³uchu stra¿ników bramy.
+K 2.4.3.1 @Mówisz mu, ¿e miastu zagra¿a niebezpieczeñstwo i chcesz dostaæ siê do œrodka, aby siê schroniæ i ostrzec mieszkañców.
+W 2.4.3.1 @Potraktowa³ twoje s³owa jako ¿art. Gdy szed³eœ w zaparte, wyjaœni³ Ci, ¿e ktoœ przed ju¿ tob¹ próbowa³ tego sposobu na stra¿nikach, ale zosta³ aresztowany i wsadzony do wiêzienia.
+K 2.0 @Przesta³eœ iœæ w zaparte i spróbowa³eœ próœb, ale rozmówca je zignorowa³. Niestety nie masz niczego do zaoferowania mu, wiêc sobie poszed³ nie traktuj¹c Ciebie, ani twoich s³ów powa¿nie.
+W 2.4.1.2 :profa:Lucznik:T&@ Doszed³eœ do miejsca, w którym widzia³eœ osobnika po raz ostatni.
+K 2.4.1.2.1 @Trochê przed sob¹ i po prawej wypatrujesz dobrze widoczny dla twoich wytrenowanych oczu œlad w œció³ce.
+K 2.4.3 @Myœliwy najwidoczniej jest dobry w swoim fachu. Nie jesteœ w stanie ustaliæ kierunku, w którym pod¹¿y³. W koñcu rezygnujesz i wracasz na œcie¿kê.
+W 2.4.1.2.1 @Skradaj¹c siê przez las zauwa¿y³eœ zaj¹ca.
+K 2.4.1.2.1.1 @1: Idziesz dalej.
+K 2.4.1.2.1.2 @2: Postanawiasz skorzystaæ z okazji i upolowaæ zaj¹ca.
+W 2.4.1.2.1.2 :zajac:1:E&@Uda³o Ci siê upolowaæ zaj¹ca za pierwszym razem. Mo¿esz byæ z siebie dumny.
+K 2.4.1.2.1.1 @Wracasz do tropienia myœliwego.
+#0########################CHATKA
+W 2.4.1.2.1.1 @Mê¿czyzna z ³ukiem w koñcu doprowadzi³ Ciê do chatki zielarki, o której mówi³ farmer. Poczeka³eœ a¿ zielarka zosta³a sama i zapuka³eœ do drzwi. Otworzy³a niem³oda kobieta i zaprosi³a Ciê do œrodka. Przedstawi³a siê jako Sabrina i zaproponowa³a herbatê.
+K 2.4.1.2.1.1.1 @1: Mówisz, ¿e przys³a³ Ciê gospodarz z farmy.
+K 2.4.1.2.2.1.2 @2: Mówisz, ¿e szukasz sposobu na dostanie siê do miasta.
+W 2.4.1.2.1.1.1 :2:roman:H:zajac:1:A&@ Sabrina o¿ywi³a siê na wzmiankê o nim. Pewnie w przesz³oœci coœ ich ³¹czy³o.
+K 2.4.1.2.1.1.1.1 @Zielarka mówi, ¿e Roman chce pewien woreczek, jednak prosi o coœ w do jedzenia w zamian.
+K 2.0 @Zielarka odsy³a Ciê do myœliwego, którego wczeœniej œledzi³eœ.
+
+W 2.4.1.2.1.1.1.1 :sakiewka:1:E&@Dajesz jej upolowanego zaj¹ca i dostajesz sakiewkê, za któr¹ Roman powinien daæ ci glejt.
+
+K 2.0 @Uprzejmie podziêkowa³eœ za woreczek i wsta³eœ od sto³u. Po po¿egnaniu wracasz na œcie¿kê prowadz¹c¹ do bram.
+W 2.4.1.2.2.1.2 :sakiewka:1:E&@Na pytanie, jak siê tu dosta³eœ odpowiadasz, ¿e œledzi³eœ myœliwego.
+K 2.0.0.2 @Sabrina jest pod wra¿eniem twoich umiejêtnoœci. Decyduje siê bezinteresownie daæ ci sakiewkê, któr¹ wymienisz na glejt u miejscowego farmera.
+W 2.0.0.2 @Wys³uchujesz opowieœci jak kilka lat temu uratowa³a ¿ycie jego syna, Marcina. Widaæ, ze doskwiera jej samotnoœæ, jednak nie chce opuœciæ swojej chatki, która sta³a siê czêœci¹ jej.
+K 2.0 @Po po¿egnaniu wracasz na œcie¿kê prowadz¹c¹ do bram.
+#1################myœliwy-reszta
+W 2.4.2 :sakiewka:1:E&@Napotkany cz³owiek okaza³ siê jednym z miejscowych myœliwych. Po wys³uchaniu Ciê, podarowa³ Ci sakiewkê i poleci³ udaæ siê z ni¹ na farmê. W œrodku nie podzwania³y monety, jednak zasugerowa³, abyœ nie zagl¹da³ do œrodka. Powiedzia³, ¿e dziêki temu dostaniesz siê do miasta. Nie mog³eœ przyj¹æ tego cennego woreczka bez dawania niczego w zamian, wiêc myœliwy - Zbigniew obieca³ zg³osiæ siê po zap³atê póŸniej, gdy bêdziesz móg³ mu coœ zaoferowaæ.
+K 2.0 @Podziêkowa³eœ mu, a on zabra³ zdobycz i odszed³ w stronê miasta. Na wszelki wypadek odczeka³eœ kilkanaœcie minut, zanim pod¹¿y³eœ za nim.
+#3###################### rozdzia³ 1
+W 3 @Znajdujesz siê na g³ównej ulicy najwiêkszego okolicznego miasta. Po prawej znajduje siê tawerna "Pod bia³ym jeleniem".
+K 0 @ {powrót}
