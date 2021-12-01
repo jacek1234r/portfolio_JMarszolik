@@ -1,0 +1,22 @@
+0;0;Kubit(np.array([[1],       [0]]),symbol='0')
+0;1;Kubit(np.array([[0],       [1]]),symbol='1')
+0;+;Kubit(np.array([[0.70710678],       [0.70710678]]),symbol='+')
+0;-;Kubit(np.array([[ 0.70710678],       [-0.70710678]]),symbol='-')
+0;i;Kubit(np.array([[0.70710678+0.j        ],       [0.        +0.70710678j]]),symbol='i')
+0;-i;Kubit(np.array([[ 0.70710678+0.j        ],       [-0.        -0.70710678j]]),symbol='-i')
+0;Bel1;Kubit(np.array([[0.70710678],       [0.        ],       [0.        ],       [0.70710678]]),symbol='Bel1')
+0;Bel2;Kubit(np.array([[ 0.70710678],       [ 0.        ],       [ 0.        ],       [-0.70710678]]),symbol='Bel2')
+0;Bel3;Kubit(np.array([[0.        ],       [0.70710678],       [0.70710678],       [0.        ]]),symbol='Bel3')
+0;Bel4;Kubit(np.array([[ 0.        ],       [ 0.70710678],       [-0.70710678],       [ 0.        ]]),symbol='Bel4')
+1;Y;Baza(np.array([[0.+0.j, 0.-1.j],       [0.+1.j, 0.+0.j]]),'Y')
+1;X;Baza(np.array([[0, 1],       [1, 0]]),'X')
+1;I;Baza(np.array([[1, 0],       [0, 1]]),'I')
+1;Z;Baza(np.array([[ 1,  0],       [ 0, -1]]),'Z')
+1;H;Baza(np.array([[ 0.70710678,  0.70710678],       [ 0.70710678, -0.70710678]]),'H')
+1;S;Baza(np.array([[1.+0.j, 0.+0.j],       [0.+0.j, 0.+1.j]]),'S')
+1;CNOT;Baza(np.array([[1, 0, 0, 0],       [0, 1, 0, 0],       [0, 0, 0, 1],       [0, 0, 1, 0]]),'CNOT')
+1;XCNOT;Baza(np.array([[1, 0, 0, 0],       [0, 0, 0, 1],       [0, 0, 1, 0],       [0, 1, 0, 0]]),'XCNOT')
+1;SWAP;Baza(np.array([[1, 0, 0, 0],       [0, 0, 1, 0],       [0, 1, 0, 0],       [0, 0, 0, 1]]),'SWAP')
+2;Measurement;Measurement
+2;Var;Var
+2;BitControl;BitControl
